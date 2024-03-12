@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+
+    display: grid;
+    grid-template-columns: auto auto;
+    height: 80vh;
+    padding: 10px;
+    margin-top: 50px;
+    
+}
+.main-1{
+
+    display: grid;
+    /* height: 80vh; */
+    margin-left: 150px;/*for center full text to the left in main1 container*/
+    justify-content: center;
+    border: 3px solid rgb(123, 123, 134);
+    border-radius: 3px;
+    background-color:rgb(75, 61, 61);
+    color: rgb(248, 232, 232);
+}
+.main-2{
+
+    display: grid;
+    /* height: 80vh; */
+    margin-right: 150px;/*for center full text to the right in main2 container*/
+    justify-content: center;
+    border: 2px soild rgb(212, 195, 178);
+    border-radius: 3px;
+    background-color: rgb(231, 132, 132);
+    color: white;
+}
+.heading{
+
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 100px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+    gap: 1px;
+    
+}
+.text1{
+
+    font-size: 13px;
+    text-align: center;
+}
+.heading-1{
+
+    font-size: 15px;
+    text-align: center;
+    margin-right: 25px;
+}
+.image{
+
+    padding: 5px;
+}
+.image img{
+
+    border-radius: 75px;
+    margin-left: 40px;
+}
+.text2{
+
+    margin-left: 40px;
+    font-size: 15px;
+    text-align: center;
+}
+.text3{
+
+    margin: 70px;
+    text-align: center;
+}
+.tit1{
+
+    font-size: 25px;
+    margin-top: 100px;
+    padding: 8px;
+    text-align: center;
+    color: black;
+}
+.tit2{
+
+    font-size: 15px;
+}
+.fname{
+
+    margin: 3px;
+    margin-left: 50px;
+    padding: 8px;
+    width: 120px;
+
+
+  
+}
+.lname{
+
+    margin: 3px;
+    margin-right:50px;
+    padding: 8px;
+    width:120px;
+    
+}
+.mail{
+
+    margin: 5px 52px;
+    padding: 5px;
+    width: 243px;
+   
+}
+.tit3{
+    
+    padding-left: 70px;
+    font-size: 20px;
+}
+.date{
+
+    margin: 5px 50px;
+    padding: 8px 30px;
+    width: 243px;
+     
+}
+.button{
+
+    text-align: center;
+
+}
+.button button{
+
+    margin: 5px 50px;
+    padding: 8px 70px;
+    border-radius: 5%;
+    background-color: rgb(190, 38, 109);
+    color:rgb(231, 211, 211);
+    font-size: 12px;
+    float: left;
+    text-align: center;
+    width: 243px;
+}
